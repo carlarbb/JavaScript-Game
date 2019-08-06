@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resurse>
+    <imagini id="imagini">
+         <imagine id="backg">IMAGINI/background.jpeg</imagine>
+         <imagine id="gradina">IMAGINI/gradina.jpg</imagine>
+         <imagine id="om">IMAGINI/omulet_angry.png</imagine>
+         <imagine id="fl1">IMAGINI/fl1.png</imagine>
+         <imagine id="fl2">IMAGINI/fl2.png</imagine>
+         <imagine id="fl3">IMAGINI/fl3.png</imagine>
+        <imagine id="fl4">IMAGINI/fl4.jpg</imagine>
+        <imagine id="plici">IMAGINI/plici.png</imagine>
+        <imagine id="piatra">IMAGINI/piatra.png</imagine>
+        <imagine id="back_menu">IMAGINI/back_menu.jpg</imagine>
+        <imagine id="back_ecran">IMAGINI/back_ecran.jpg</imagine>
+    </imagini>
+
+    <mesaje id="mesaje">
+        <mesaj id="castig">Ai castigat</mesaj>
+        <mesaj id="esec">Ai pierdut jocul</mesaj>
+        <mesaj id="tasta">Tasta apasata pentru preluare floare:</mesaj>
+        <mesaj id="dif">Nivelul de dificultate:</mesaj>
+        <mesaj id="culfl">Culorile florilor:</mesaj>
+        <mesaj id="cursor">Alege forma cursorului:</mesaj>
+        <mesaj id="vit">Viteza de deplasare a cutiei:</mesaj>
+        <mesaj id="mute">Opreste sunetul:</mesaj>
+        <mesaj id="muta">Muta cutia mai clar pe o floare!</mesaj>
+        <mesaj id="instr"> 
+            Avem o florarie (ecran de joc). Inauntru avem un div ce reprezinta o gradina. In gradina se genereaza random flori, initial mici, care la un interval de timp setat vor creste (treptat) si care pot fi culese doar atunci cand ajung la dimensiunea maxima. In gradina exista o cutie care colecteaza o floare atunci cand este deasupra ei si se apasa o tasta specifica. Floarea culeasa e marcata in comanda. Daca marchez o floare gresita comanda dispare si se penalizeaza la scor. Cutia se deplaseaza prin taste. In partea de jos se genereaza comenzi, iar scopul jocului este de a realiza cat mai multe comenzi (pt. fiecare comanda indeplinita creste scorul). Odata ce se indeplineste o comanda, se schimba comanda. Pe margine exista cativa omuleti care, din cand in cand, focuseaza o floare (floarea va primi un chenar de culoarea omuletului) si dupa va trage spre acea floare (cu o piatra ce porneste de la omulet spre floare, cu deplasare treptata). Daca piatra o loveste, floarea va disparea (penalizare scor). In gradina exista o paleta care la mouseover si la hold pe o tasta specifica se va muta dupa cursor (cand dau release la tasta nu se mai deplaseaza). Daca paleta intersecteaza o piatra, piatra va disparea.
+        </mesaj>
+    </mesaje>
+    
+    <adresecursor id="adresecursor">
+        <adresa id="tip1">http://www.rw-designer.com/cursor-view/104950.png</adresa>
+        <adresa id="tip2">http://www.rw-designer.com/cursor-view/104968.gif</adresa>
+        <adresa id="tip3">http://www.rw-designer.com/cursor-view/105506.png</adresa>
+    </adresecursor>
+    
+    <audio id="audio">
+        <muz id="muz">AUDIO/muz.mp3</muz>
+    </audio>
+</resurse>

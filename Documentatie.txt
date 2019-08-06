@@ -1,0 +1,7 @@
+Carla Niculescu -> Documentatie joc florarie 
+
+Avem o florarie (ecran de joc). Inauntru avem un div ce reprezinta o gradina. In gradina se genereaza random flori, initial mici, care la un interval de timp setat vor creste (treptat) si care pot fi culese doar atunci cand ajung la dimensiunea maxima. In gradina exista o cutie care colecteaza o floare atunci cand este deasupra ei si se apasa o tasta specifica. Floarea culeasa e marcata in comanda. Daca marchez o floare gresita comanda dispare si se penalizeaza la scor. Cutia se deplaseaza prin taste. In partea de jos se genereaza comenzi, iar scopul jocului este de a realiza cat mai multe comenzi (pt. fiecare comanda indeplinita creste scorul). Odata ce se indeplineste o comanda, se schimba comanda. Pe margine exista cativa omuleti care, din cand in cand, focuseaza o floare (floarea va primi un chenar de culoarea omuletului) si dupa va trage spre acea floare (cu o piatra ce porneste de la omulet spre floare, cu deplasare treptata). Daca piatra o loveste, floarea va disparea (penalizare scor). In gradina exista o paleta care la mouseover si la hold pe o tasta specifica se va muta dupa cursor (cand dau release la tasta nu se mai deplaseaza). Daca paleta intersecteaza o piatra, piatra va disparea.
+
+N tipuri de flori (difera prin culoare)
+m omuleti
+...
